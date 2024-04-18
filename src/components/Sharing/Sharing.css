@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly ;
+    /* justify-content: center; */
+    min-height: 100vh;
+    
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #4285F4;
+  }
+  
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+  }
+  
+  .upload-label {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 25px;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .upload-label:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-icon {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .upload-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  
+  .success-message {
+    margin-bottom: 10px;
+    color: #4caf50;
+  }
+  
+  .download-link {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .qr-code {
+    margin-top: 20px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    color: #000;
+  }
+  
+  .download-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* mediaqery */
+    @media (max-width: 768px) {
+        .container {
+        padding: 20px;
+        }
+
+        .qr-code {
+            margin-top: 20px;
+            max-width: 300px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            color: #000;
+          }
+    }
+
+
+    .inteructions{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        margin-top: 20px;
+        color: #4285F4;;
+    }
+
+    .disicon{
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
